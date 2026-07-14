@@ -1,0 +1,357 @@
+{
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-21801",
+  "name": "G24_marine_battery",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-21802",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.30078125,
+      "y": 0.24188311688311687,
+      "uniqueID": "id-21804",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10.3
+        },
+        {
+          "name": "y length",
+          "ioValue": 6.8
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.44140625,
+      "y": 0.3555194805194805,
+      "uniqueID": "id-21808",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 8.9
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.21171875,
+      "y": 0.6331168831168832,
+      "uniqueID": "id-21812",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 0.5
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.15234375,
+      "y": 0.3782467532467532,
+      "uniqueID": "id-21815",
+      "name": "Height",
+      "value": 8.9
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.16640625,
+      "y": 0.17370129870129872,
+      "uniqueID": "id-21817",
+      "name": "width",
+      "value": 10.3
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.10234375,
+      "y": 0.48376623376623373,
+      "uniqueID": "id-21819",
+      "name": "PinInset",
+      "value": 1
+    },
+    {
+      "atomType": "Color",
+      "x": 0.48515625000000007,
+      "y": 0.5974025974025974,
+      "uniqueID": "id-21827",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Black"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.26640625,
+      "y": 0.7646103896103896,
+      "uniqueID": "id-21830",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 0.5
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.69140625,
+      "y": 0.6412337662337662,
+      "uniqueID": "id-21834",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.38203125,
+      "y": 0.7824675324675325,
+      "uniqueID": "id-21838",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 1,
+          "currentEquation": "PinInset"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 1,
+          "currentEquation": "PinInset"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 8.9,
+          "currentEquation": "Height"
+        }
+      ]
+    },
+    {
+      "atomType": "Color",
+      "x": 0.47734374999999996,
+      "y": 0.7077922077922079,
+      "uniqueID": "id-21839",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Red"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.15078125,
+      "y": 0.28084415584415584,
+      "uniqueID": "id-21847",
+      "name": "Depth",
+      "value": 6.8
+    },
+    {
+      "atomType": "Move",
+      "x": 0.378125,
+      "y": 0.5616883116883117,
+      "uniqueID": "id-21849",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 9.3,
+          "currentEquation": "width - PinInset"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 1,
+          "currentEquation": "PinInset"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 8.9,
+          "currentEquation": "Height"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.60390625,
+      "y": 0.336038961038961,
+      "uniqueID": "id-21863",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 5.15,
+          "currentEquation": "width / 2"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 3.4,
+          "currentEquation": "Depth / 2"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.821875,
+      "y": 0.40584415584415584,
+      "uniqueID": "id-21869",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "12.8V 100Ah battery",
+          "currentEquation": "12.8V 100Ah battery"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 1
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 185
+        },
+        {
+          "name": "Source Link",
+          "ioValue": "https://www.amazon.com/dp/B0DZXDWJXR",
+          "currentEquation": "https://www.amazon.com/dp/B0DZXDWJXR"
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "12.8V 100Ah battery",
+        "numberNeeded": 1,
+        "costUSD": 185,
+        "source": "https://www.amazon.com/dp/B0DZXDWJXR"
+      }
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21804",
+      "ap2ID": "id-21808"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21808",
+      "ap2ID": "id-21863"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21812",
+      "ap2ID": "id-21830"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-21815",
+      "ap2ID": "id-21808"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-21817",
+      "ap2ID": "id-21804"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-21827",
+      "ap2ID": "id-21834"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21830",
+      "ap2ID": "id-21838"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21830",
+      "ap2ID": "id-21849"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21834",
+      "ap2ID": "id-21869"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21838",
+      "ap2ID": "id-21839"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-21839",
+      "ap2ID": "id-21834"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-21847",
+      "ap2ID": "id-21804"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21849",
+      "ap2ID": "id-21827"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-21863",
+      "ap2ID": "id-21834"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-21869",
+      "ap2ID": "id-21802"
+    }
+  ],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
+}
